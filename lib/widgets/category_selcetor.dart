@@ -1,8 +1,9 @@
-import 'package:chatui_flutter/screens/tab_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Category_Selector extends StatefulWidget{
+  const Category_Selector({super.key});
+
   @override
   State<Category_Selector> createState() => _Category_SelectorState();
 }
